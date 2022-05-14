@@ -1,9 +1,10 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
+import { Nav } from "../components";
 
 export const Home = () => {
   return (
-    <div className="container">
+    <div className="container" id="home">
       <div className="title-box">
         <div className="title">
           <Typewriter
@@ -36,6 +37,7 @@ export const Home = () => {
             </button>
           </div>
         </div>
+        <Nav />
       </div>
     </div>
   );

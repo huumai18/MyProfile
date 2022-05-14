@@ -1,10 +1,11 @@
 import React from "react";
-import { Home } from "./pages";
+import { Home, About } from "./pages";
 
 function App() {
   return (
     <>
       <Home />
+      <About />
     </>
   );
 }
