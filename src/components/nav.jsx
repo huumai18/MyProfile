@@ -1,11 +1,19 @@
 import React from "react";
 import { Link } from "react-scroll";
-import { Typewriter } from "react-simple-typewriter";
-export const Nav = () => {
+import { DarkTheme } from "./Themes";
+import styled from "styled-components";
+
+const Line = styled.span`
+  width: 3px;
+  height: 20em;
+  background-color: ${(props) =>
+    props.color === "dark" ? DarkTheme.body : DarkTheme.body};
+`;
+export const Nav = (props) => {
   return (
     <>
-      <div className="line-icons"></div>
       <div className="link-box">
+        <Line color={props.theme} />
         <Link
           className="link"
           to="home"
@@ -46,6 +54,8 @@ export const Nav = () => {
         >
           Contact Me
         </Link>
+
+        <Line color={props.theme} />
       </div>
     </>
   );

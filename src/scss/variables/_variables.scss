@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+$main: rgb(24, 24, 24);
+$main2:rgb(152, 151, 151);
+$secondary: #fffdf1;
+$black: #04030f;
+$white: #eef0ec;
+$greenyellow: #b3ff00;
+
+//font
+$font-family: 'Ubuntu Mono', monospace;
+
+:export {
+    main: $main;
+    main2: $main2;
+    greenyellow: $greenyellow;
+    secondary: $secondary;
+    black: $black;
+    white: $white;
+    font-family: $font-family;
+}

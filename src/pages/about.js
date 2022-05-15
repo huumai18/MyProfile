@@ -2,7 +2,7 @@ import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 export const About = () => {
   return (
-    <div className="container" id="about">
+    <div className="container-about" id="about">
       <div className="about">
         <div className="about-title">
           <h1>

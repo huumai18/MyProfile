@@ -1,13 +1,21 @@
-.container {
+@use '../variables/' as *;
+
+
+.container-about {
+    height: 20vh;
+    max-height: 20vh;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-family;
     .about {
+        background-color: $white;
         width: 100%;
         top: 0;
-        color: #BDB76B;
+        color: $black;
         .about-title {
             height: 50%;
             display: flex;
             justify-content: center;
-            align-items: center;
         }
         .about-text {
             display: block;
