@@ -13,13 +13,13 @@
         font-size: 2em;
         &.active {
             text-decoration: underline 2px $greenyellow;
-            text-underline-offset: 0.5em;
-            transition: 250ms ease;
+            text-underline-offset: 0.1em;
+            transition: 50ms ease;
           }
           &:hover {
             text-decoration: underline 5px $greenyellow;
-            text-underline-offset: 0.5em;
-            transition: 250ms ease;
+            text-underline-offset: 0.1em;
+            transition: 50ms ease;
           }
     }
 }

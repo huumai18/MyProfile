@@ -36,7 +36,7 @@ export const Nav = (props) => {
         </Link>
         <Link
           className="link"
-          to="about"
+          to="skills"
           spy={true}
           smooth={true}
           offset={0}
